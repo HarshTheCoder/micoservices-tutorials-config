@@ -1,7 +1,4 @@
-osm:
-  ws:
-    user: omsadmin
-    password: blE5Y0JuU1gxMg==
-    soapAction: http://xmlns.oracle.com/communications/ordermanagement/CreateOrder
-    url: http://dev1.vil.osm.apps.uat.vodafoneidea.com:80/OrderManagement/wsapi
-    source: vil
+spring:
+  profiles:
+    active: dev1-cne
+
